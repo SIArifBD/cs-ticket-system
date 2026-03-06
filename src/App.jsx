@@ -6,6 +6,7 @@ import NavBar from './components/NavBar/NavBar'
 import { ToastContainer } from 'react-toastify';
 import TaskStates from './components/TaskStates/TaskStates'
 import ResolveTask from './components/ResolveTask/ResolveTask'
+import Footer from './components/Footer/Footer'
 
 const fetchCustomerTickets = async () => {
   const res = await fetch("/fakeData.json")
@@ -57,6 +58,7 @@ function App() {
         </div>
       </div>
       <ToastContainer />
+      <Footer></Footer>
     </div>
   )
 }
