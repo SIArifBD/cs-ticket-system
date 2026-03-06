@@ -38,7 +38,7 @@
     {
         "id": "1005",
         "title": "App Crash on Launch",
-        "description": "Customer reports that the mobile app crashes immediately upon opening on Android 13.",
+        "description": "Customer reports that the mobile app crashes immediately upon Opening on Android 13.",
         "customer": "David Wilson",
         "priority": "HIGH PRIORITY",
         "status": "Open",
