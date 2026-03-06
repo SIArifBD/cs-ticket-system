@@ -2,7 +2,7 @@ import React from 'react';
 import leftImg from "../../assets/Group-2.png";
 import rightImg from "../../assets/Group-1.png";
 
-const Banner = ({ticketStatistics}) => {
+const Banner = ({ticketStatistics, resolveTask}) => {
     return (
         <div className='lg:px-4 py-4 lg:py-10'>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6 mx-2 lg:mx-auto mb-10'>
@@ -21,7 +21,7 @@ const Banner = ({ticketStatistics}) => {
                         <div className='min-w-1/3 bg-cover bg-no-repeat' style={{backgroundImage: `url(${leftImg})`}}></div>
                         <div className='w-1/3 flex flex-col justify-center items-center py-4 gap-2'>
                             <h3 className='text-xl whitespace-nowrap'>Resolve</h3>
-                            <h1 className='text-4xl font-bold'>0</h1>
+                            <h1 className='text-4xl font-bold'>{resolveTask}</h1>
                         </div>
                         <div className='min-w-1/3 bg-cover bg-no-repeat' style={{backgroundImage: `url(${rightImg})`}}></div>
                     </div>
